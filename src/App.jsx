@@ -1,16 +1,16 @@
 import { useState, Suspense, useRef, useEffect } from 'react';
 import { Canvas, useFrame } from '@react-three/fiber'
-import { Html, Environment, OrbitControls } from '@react-three/drei'
+import { Html, Environment, Loader } from '@react-three/drei'
 import { useInView } from "react-intersection-observer";
 import { AppleIpadPro } from './models/AppleIpadPro'
 import { IphoneThirteen } from './models/IphoneThirteen'
 import { AppleWatchUltra } from './models/AppleWatchUltra'
 import state from './components/state';
 import { Section } from './components/section';
-import Camera from './components/Camera.jsx';
+// import Camera from './components/Camera.jsx';
 import Lights from './components/Lights.jsx';
-import './App.css'
 import Header from './components/header.jsx';
+import './App.css'
 
 
 const HTMLContent = ({
@@ -50,7 +50,6 @@ const HTMLContent = ({
     </Section>
   )
 }
-
 
 // function App() {
 //   return (
@@ -138,6 +137,10 @@ function App() {
           <Environment files={"./recursos/hdr/decor_shop_1k.hdr"} />
         </Suspense>
       </Canvas>
+      <Loader 
+
+        dataInterpolation={(p) => `Loading ${p.toFixed(2)}%`}
+      />
       <div
         className='scrollArea'
         ref={scrollArea}
