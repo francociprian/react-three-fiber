@@ -1,0 +1,90 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #f15946;
+  transition: 0.4s ease-in-out;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.scrollArea {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow-y: auto;
+  overflow-x: hidden;
+  /* overflow: auto; */
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title {
+    font-size: 10rem;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    color: #fff;
+    /*@media (max-width: 1440px) {
+      font-size: 6rem;
+    } */
+}
+.btn-order {
+  display: inline-block !important;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 600;
+  background: #23232a;
+  padding: 12px 28px;
+  border-radius: 10px;
+  margin-right: 30px;
+}
+
+.title span {
+  display: block;
+}
+@media (max-width: 1440px) {
+ .title {
+  font-size: 6rem;
+ }
+}
+
+@media (max-width: 1024px) {
+  .title{
+    font-size: 5rem;
+  }
+}
+
+@media (max-width: 767px) {
+  .title {
+    font-size: 4rem;
+  }
+}
+
+.hover {
+  color: #7cc52d;
+}

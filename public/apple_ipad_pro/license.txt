@@ -1,0 +1,11 @@
+Model Information:
+* title:	Apple iPad Pro
+* source:	https://sketchfab.com/3d-models/apple-ipad-pro-e5ffb3c80b2d4d6690249f8ee2bdafbe
+* author:	DatSketch (https://sketchfab.com/DatSketch)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Apple iPad Pro" (https://sketchfab.com/3d-models/apple-ipad-pro-e5ffb3c80b2d4d6690249f8ee2bdafbe) by DatSketch (https://sketchfab.com/DatSketch) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
