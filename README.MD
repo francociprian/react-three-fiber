@@ -2,6 +2,8 @@
 
 [![Captura-de-pantalla-2023-01-26-a-la-s-10-42-49.png](https://i.postimg.cc/13vMJXvB/Captura-de-pantalla-2023-01-26-a-la-s-10-42-49.png)](https://postimg.cc/v46WmYFx)
 
+[![Grabacio-n-de-pantalla-2023-01-26-a-la-s-10-39-17.gif](https://i.postimg.cc/gkV6Y7R6/Grabacio-n-de-pantalla-2023-01-26-a-la-s-10-39-17.gif)](https://postimg.cc/TpPP0CtR)
+
 ## 🚀 Getting started:
 
 You need:
