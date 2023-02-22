@@ -28,14 +28,15 @@ nav ul li {
   list-style: none;
 }
 
-nav ul li a {
+nav ul li p {
   text-transform: capitalize;
   text-decoration: none;
   color: #fff;
+  cursor: pointer;
 }
 
 @media (max-width: 767px) {
-  nav ul li a {
+  nav ul li p {
     display: none;
   }
 }

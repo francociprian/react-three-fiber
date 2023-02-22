@@ -6,8 +6,7 @@ import { AppleIpadPro } from './models/AppleIpadPro'
 import { IphoneThirteen } from './models/IphoneThirteen'
 import { AppleWatchUltra } from './models/AppleWatchUltra'
 import state from './components/state';
-import { Section } from './components/section';
-// import Camera from './components/Camera.jsx';
+import { Section } from './components/Section';
 import Lights from './components/Lights.jsx';
 import Header from './components/header.jsx';
 import './App.css'
@@ -23,8 +22,6 @@ const HTMLContent = ({
 }) => {
   const ref = useRef()
   useFrame(() => (ref.current.rotation.y += 0.01))
-  // useFrame(() => (ref.current.rotation.y = 10))
-  // useFrame(() => (ref.current.rotation.x = 0.3))
   const [refItem, inView] = useInView({
     threshold: 0,
   });
@@ -51,41 +48,6 @@ const HTMLContent = ({
   )
 }
 
-// function App() {
-//   return (
-//     <>
-//       <div
-//         className='Container'
-//         style={{ height: '90vh', width: '100%' }}
-//       >
-//         <Canvas>
-//           <Camera />
-//           <Lights />
-//           {/* <mesh position={[ 0, 0, 0 ]}>
-//             <torusKnotBufferGeometry args={[11, 3, 100, 16]} />
-//             <meshBasicMaterial color={'#ff0'}/>
-//           </mesh> */}
-
-//           <Suspense fallback={null}>
-//             {/* <Matcap /> */}
-//             {/* <Bricks /> */}
-//             {/* <mesh ref={ref}> */}
-//             {/* </mesh> */}
-//             {/* <BackpackOne /> */}
-//             {/* <BackpackTwo /> */}
-//             {/* <BackpackTree /> */}
-//             {/* <Environment files={"./recursos/hdr/decor_shop_1k.hdr"} /> */}
-//           </Suspense>
-
-//           <OrbitControls
-//           target={[0, 40, 0]}
-//           />
-//         </Canvas>
-//       </div>
-//     </>
-//   )
-// }
-
 function App() {
   const [events, setEvents] = useState();
   const domContent = useRef();
@@ -100,7 +62,6 @@ function App() {
       <Canvas
         camera={{ position: [0, 0, 120], fov: 70 }}
       >
-        {/* <Camera /> */}
         <Lights />
 
         <Suspense fallback={null}>

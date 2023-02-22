@@ -62,6 +62,7 @@ body,
   padding: 12px 28px;
   border-radius: 10px;
   margin-right: 30px;
+  cursor: pointer;
 }
 
 .title span {
