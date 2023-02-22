@@ -6,7 +6,7 @@ import { AppleIpadPro } from './models/AppleIpadPro'
 import { IphoneThirteen } from './models/IphoneThirteen'
 import { AppleWatchUltra } from './models/AppleWatchUltra'
 import state from './components/state';
-import { Section } from './components/Section';
+import { Section } from './components/Section.jsx';
 import Lights from './components/Lights.jsx';
 import Header from './components/header.jsx';
 import './App.css'
